@@ -1,0 +1,11 @@
+baseURL = "https://selfhostedshow.github.io/wiki-hugo/"
+languageCode = "en-us"
+title = "Self-Hosted Show Wiki"
+
+theme = "learn"
+[params]
+themeVariant = "orange"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
